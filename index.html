@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus Mortgage Group, Inc. | Professional Loan Solutions</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; margin: 0; color: #fff; background-color: #002244; }
+        
+        nav { background: #001122; color: white; padding: 15px 0; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 0.9rem; letter-spacing: 1px; }
+        nav a:hover { color: #ffcc00; }
+
+        .hero { 
+            background: linear-gradient(135deg, #003366 0%, #001122 100%);
+            color: white; padding: 35px 20px; text-align: center; 
+        }
+        .hero h1 { font-size: 2.2rem; margin: 0 0 10px 0; }
+        .hero p { font-size: 1rem; color: #ffcc00; font-weight: bold; margin: 0; }
+
+        .container { width: 90%; max-width: 1200px; margin: auto; padding: 60px 0; }
+        .section-title { text-align: center; margin-bottom: 50px; color: #ffcc00; font-size: 2.2rem; border-bottom: 2px solid #003366; display: inline-block; padding-bottom: 15px; width: 100%; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; margin-bottom: 80px; }
+        .card { 
+            background: #001a33; padding: 40px; border-radius: 12px; 
+            text-align: left; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4); 
+            transition: 0.3s; border: 1px solid #0b2b4d;
+        }
+        .card:hover { transform: translateY(-10px); border-color: #ffcc00; }
+        .card h3 { color: #ffcc00; margin-bottom: 20px; font-size: 1.5rem; border-bottom: 1px solid #003366; padding-bottom: 10px; }
+        .card p { color: #fff; font-size: 1.05rem; margin-bottom: 15px; font-weight: bold; }
+        .card ul { padding-left: 20px; margin: 0; color: #ccc; font-size: 0.95rem; }
+        .card li { margin-bottom: 12px; }
+
+        .calculator-wrapper { background: #001122; padding: 80px 0; border-top: 1px solid #111; }
+        .calculator-box { background: #fff; padding: 40px; border-radius: 15px; max-width: 550px; margin: 0 auto; color: #333; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
+        .calculator-box .section-title { color: #003366; border: none; font-size: 1.8rem; margin-bottom: 30px; }
+        
+        .calc-row { display: flex; gap: 20px; margin-bottom: 20px; }
+        .calc-group { flex: 1; text-align: left; }
+        .calc-group label { display: block; margin-bottom: 8px; font-weight: bold; color: #003366; font-size: 0.85rem; }
+        .calc-group input { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; font-size: 1rem; color: #333; }
+        
+        .loan-summary { background: #f0f4f8; padding: 15px; border-radius: 6px; margin-bottom: 25px; border-left: 5px solid #003366; font-size: 1rem; color: #333; }
+        .result-box { background: #003366; padding: 30px; border-radius: 10px; text-align: center; color: #fff; }
+        .result-amount { font-size: 2.8rem; color: #ffcc00; font-weight: bold; }
+
+        .contact-section { padding: 100px 20px; text-align: center; background-color: #002244; }
+        .contact-form { max-width: 600px; margin: auto; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 15px; margin: 12px 0; border-radius: 6px; border: 1px solid #ddd; font-size: 1rem; background: #fff; color: #333; }
+        .contact-form button { background: #ffcc00; color: #002244; padding: 20px; border: none; border-radius: 6px; cursor: pointer; font-size: 1.2rem; font-weight: bold; width: 100%; transition: 0.3s; }
+
+        footer { text-align: center; padding: 60px 20px; background: #000911; color: #888; font-size: 0.9rem; border-top: 1px solid #111; }
+        .footer-logo { color: #fff; font-size: 1.4rem; font-weight: bold; margin-bottom: 10px; display: block; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#">HOME</a>
+    <a href="#services">LOAN PROGRAMS</a>
+    <a href="#calculator">CALCULATOR</a>
+    <a href="#contact">CONTACT</a>
+</nav>
+
+<section class="hero">
+    <h1>Plus Mortgage Group, Inc.</h1>
+    <p>Licensed in 26 States | Trusted Mortgage Professionals Since 1997</p>
+</section>
+
+<div class="container">
+    <h2 class="section-title" id="services">Diverse Loan Programs</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Conventional Loans</h3>
+            <p>Flexible financing for various home purchase needs.</p>
+            <ul>
+                <li>Competitive fixed and adjustable rates.</li>
+                <li>Options for Primary, Second, or Investment homes.</li>
+                <li>Minimum 3% down payment for first-time buyers.</li>
+                <li>Standard terms: 10, 15, 20, 25, and 30 years.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>FHA Loans</h3>
+            <p>Affordable government-backed home loans.</p>
+            <ul>
+                <li>Down payment as low as 3.5%.</li>
+                <li>Lenient credit score requirements (580+).</li>
+                <li>Higher debt-to-income (DTI) ratios allowed.</li>
+                <li>Ideal for first-time homebuyers with limited savings.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Easy Jumbo Loans</h3>
+            <p>Luxury real estate financing made simple.</p>
+            <ul>
+                <li>Loan amounts exceeding conforming limits.</li>
+                <li>Flexible asset and income verification options.</li>
+                <li>Available for both Purchase and Cash-Out Refinance.</li>
+                <li>Personalized underwriting for unique financial profiles.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Apartment Loans</h3>
+            <p>Professional solutions for multi-family property investors.</p>
+            <ul>
+                <li>Financing for residential buildings with 5+ units.</li>
+                <li>Non-recourse and DSCR-based lending available.</li>
+                <li>Acquisition and portfolio refinancing expertise.</li>
+                <li>Competitive terms for commercial investors.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="calculator-wrapper" id="calculator">
+    <div class="calculator-box">
+        <h2 class="section-title">Mortgage Calculator</h2>
+        <div class="calc-row">
+            <div class="calc-group">
+                <label>Purchase Price ($)</label>
+                <input type="number" id="purchasePrice" value="500000" oninput="updateLoanAmount()">
+            </div>
+        </div>
+        <div class="calc-row">
+            <div class="calc-group">
+                <label>Down Payment (%)</label>
+                <input type="number" id="downPercent" value="20" oninput="updateByPercent()">
+            </div>
+            <div class="calc-group">
+                <label>Down Payment ($)</label>
+                <input type="number" id="downAmount" value="100000" oninput="updateByAmount()">
+            </div>
+        </div>
+        <div class="loan-summary">Calculated Loan Amount: <strong id="displayLoanAmount">$400,000</strong></div>
+        <div class="calc-row">
+            <div class="calc-group">
+                <label>Interest Rate (%)</label>
+                <input type="number" id="rate" value="6.5" step="0.01" oninput="calculateMortgage()">
+            </div>
+            <div class="calc-group">
+                <label>Term (Years)</label>
+                <input type="number" id="years" value="30" oninput="calculateMortgage()">
+            </div>
+        </div>
+        <div class="result-box">
+            <div class="result-label">Estimated Monthly Principal & Interest</div>
+            <div class="result-amount" id="monthlyPayment">$2,528.27</div>
+        </div>
+    </div>
+</div>
+
+
+<section class="contact-section" id="contact">
+    <h2 class="section-title">Inquire Today</h2>
+    <div class="contact-form">
+        <form action="https://formspree.io/f/xykeqolw" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="_replyto" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" rows="5" placeholder="How can we help you?"></textarea>
+            <button type="submit">SUBMIT REQUEST</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <span class="footer-logo">Plus Mortgage Group, Inc.</span>
+    <p>NMLS #293779 | Licensed in 26 States | Main Office: 213-247-0011</p>
+    <p>&copy; 1997-2026 Plus Mortgage Group, Inc. All rights reserved.</p>
+</footer>
+
+<script>
+    function updateByPercent() {
+        const price = document.getElementById('purchasePrice').value;
+        const percent = document.getElementById('downPercent').value;
+        const downAmount = price * (percent / 100);
+        document.getElementById('downAmount').value = downAmount.toFixed(0);
+        calculateMortgage();
+    }
+    function updateByAmount() {
+        const price = document.getElementById('purchasePrice').value;
+        const downAmount = document.getElementById('downAmount').value;
+        const percent = (downAmount / price) * 100;
+        document.getElementById('downPercent').value = percent.toFixed(2);
+        calculateMortgage();
+    }
+    function updateLoanAmount() { updateByPercent(); }
+    function calculateMortgage() {
+        const price = parseFloat(document.getElementById('purchasePrice').value) || 0;
+        const down = parseFloat(document.getElementById('downAmount').value) || 0;
+        const loanAmount = price - down;
+        document.getElementById('displayLoanAmount').innerHTML = '$' + loanAmount.toLocaleString();
+        const rate = parseFloat(document.getElementById('rate').value) / 100 / 12;
+        const payments = parseFloat(document.getElementById('years').value) * 12;
+        if (loanAmount > 0 && rate > 0 && payments > 0) {
+            const x = Math.pow(1 + rate, payments);
+            const monthly = (loanAmount * x * rate) / (x - 1);
+            document.getElementById('monthlyPayment').innerHTML = '$' + monthly.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+        } else {
+            document.getElementById('monthlyPayment').innerHTML = '$0.00';
+        }
+    }
+</script>
+</body>
+</html>
